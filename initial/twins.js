@@ -5,9 +5,10 @@ module.exports = {
     check_timeout: 250,
     wallet: {
         host: "localhost",
-        port: 19915,
+        port: 37818,
         user: "sha1",
-        pass: "sha1"
+        pass: "sha1",
+        timeout: 8000
     },
     confirmations: 40,
     display: {
